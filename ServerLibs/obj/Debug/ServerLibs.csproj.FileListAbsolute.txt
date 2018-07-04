@@ -1,0 +1,6 @@
+C:\Users\addle\source\repos\MessagingServer\ServerLibs\bin\Debug\ServerLibs.dll
+C:\Users\addle\source\repos\MessagingServer\ServerLibs\bin\Debug\ServerLibs.pdb
+C:\Users\addle\source\repos\MessagingServer\ServerLibs\obj\Debug\ServerLibs.csprojResolveAssemblyReference.cache
+C:\Users\addle\source\repos\MessagingServer\ServerLibs\obj\Debug\ServerLibs.csproj.CoreCompileInputs.cache
+C:\Users\addle\source\repos\MessagingServer\ServerLibs\obj\Debug\ServerLibs.dll
+C:\Users\addle\source\repos\MessagingServer\ServerLibs\obj\Debug\ServerLibs.pdb

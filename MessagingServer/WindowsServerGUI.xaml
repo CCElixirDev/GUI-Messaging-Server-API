@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="MessagingServer.WindowsServerGUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MessagingServer"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="#FFF3F0F0">
+	<Grid x:Name="MainGrid" Background="#FFECE2E2">
+		<TextBox x:Name="OutPutBox" HorizontalAlignment="Left" Height="384" Margin="10,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="604"/>
+		<Menu HorizontalAlignment="Left" Height="17" Margin="10,0,0,0" VerticalAlignment="Top" Width="77"/>
+		<TextBox x:Name="CommandBox" HorizontalAlignment="Left" Height="23" Margin="10,417,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="604" TextChanged="CommandBox_TextChanged" KeyDown="CommandBox_OnKeyDown"/>
+		<Label x:Name="PortLabel" Content="Port" HorizontalAlignment="Left" Margin="619,34,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="PortTextBox" HorizontalAlignment="Left" Height="23" Margin="656,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" TextChanged="PortTextBox_TextChanged" Initialized="PortTextBox_Initialized"/>
+	</Grid>
+</UserControl>
